@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* All CSS  Header, content, footer */
+
+:root {
+    --primary-color: #191560;
+    --hover-color:  rgb(255, 190, 68);
+}
+
+.header-1 .dropdown h6{
+    color:var(--primary-color);
+    font-weight: 600;
+
+}
+
+.header-1 .btn{
+    background:var(--primary-color);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.header-1 .btn::before{
+    content: ""; 
+    position: absolute;
+    height: 80%;
+    border-radius: 5px;
+    width: 100%;
+    top: 10%;
+    right: 93%;
+    background-color: orangered;
+}
+.header-1 .btn::after{
+    content: ""; 
+    position: absolute;
+    height: 80%;
+    border-radius: 5px;
+    width: 100%;
+    top: 10%;
+    left: 93%;
+    background-color: orangered;
+}
+
+
+.header-2 .navbar{
+    box-shadow: 0px 20px 10px #e0dfdf6a;
+}
+
+
+.header-2 .nav-link{
+    margin: 0px 25px;
+    transition: all .1s ease-in;
+}
+
+.nav-item{
+    transition: all .1s ease-in;
+}
+
+.header-2 .nav-item:hover{
+    background-color: var(--hover-color);
+}
+
+.header-2 .nav-item a{
+    color: black;
+}
+
+.header-3{
+    background: rgb(245,242,242);
+    background: linear-gradient(0deg, rgba(245,242,242,1) 32%, rgba(241,241,241,0.9598039899553571) 62%); 
+}
+
+.header-3 span{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.title-subpart{
+    font-size: 12px;
+}
+
+.sub-text{
+    font-size: 14px;
+}
+
+.mini-article p, span{
+    font-size: 10px
+}
+
+.side-article{
+    transition: all .1s ease-in;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.side-article:hover{
+    background-color: var(--hover-color);
+}
+
+.end-sub-section .text{
+    font-size: 14px;
+}
+
+.footer-link h5{
+    color: var(--primary-color);
+    font-weight:600;
+}
+
+.footer-link a{
+    margin-top: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all.2s ease-in;
+}
+
+.footer-link a:hover{
+    color: var(--hover-color);
+    scale: 1.1;
+}
+
+.app-icon{
+    border-radius: 20px;
+    height: 40px;
+}
+
+.ending-contact-text{
+    color: var(--primary-color);
+}
+
+
+.fixed-icon{
+    position:fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+.fixed-icon i{
+    font-size: 70px;
+}
+
+
+/* all part css ended here */
